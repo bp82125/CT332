@@ -71,6 +71,7 @@ void printPathwayToGetGoal(Node *node) {
 	push(node, &stackPrint);
 	
 	int noAction = 0;
+	
 	while(!emptyStack(stackPrint)){
 		Node* currentNode = top(stackPrint);
 		printf("\nAction %d: %s", noAction, actions[currentNode->noFunction]);
