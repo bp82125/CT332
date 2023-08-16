@@ -1,10 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <queue>
+#include <stack>
 
 typedef enum {A, B} BoatPosition;
 
 #define MAX_PRIEST 3
 #define MAX_DEMON 3
+
+const char* actions[] = {
+	"First state",
+	"Move one priest",
+	"Move one demon",
+	"Move two priests",
+	"Move two demons",
+	"Move one priest and one demon"
+};
 
 typedef struct State{
 	int numberOfPriest;
@@ -80,15 +91,6 @@ int checkLegalState(State state) {
 	return checkAlive(state.numberOfPriest, state.numberOfDemon) && 
 		   checkAlive(MAX_PRIEST - state.numberOfPriest, MAX_DEMON - state.numberOfDemon);
 }
-
-const char* actions[] = {
-	"First state",
-	"Move one priest",
-	"Move one demon",
-	"Move two priests",
-	"Move two demons",
-	"Move one priest and one demon"
-};
 
 int moveOnePriest(State currentState, State *result) {
 	
@@ -259,7 +261,7 @@ int callOperator(
 		case 4: return moveTwoDemons(currentState, result);
 		case 5: return moveOnePriestOneDemon(currentState, result);
 		
-		default: printf("Error calling operator!");
+		default: printf("Error calling operator!\n");
 			return 0;
 	}
 }
@@ -276,77 +278,31 @@ typedef struct Node {
 	int noFunction;
 }Node;
 
-#define MAXN 100
-
-typedef struct Stack {
-	Node* elements[MAXN];
-	int topIndex;
-}Stack;
-
-void makeNullStack(Stack *S) {
-	S->topIndex = MAXN;
-}
-
-int emptyStack(Stack S) {
-	return S.topIndex == MAXN;
-}
-
-int fullStack(Stack S) {
-	return S.topIndex == 0;
-}
-
-Node* top(Stack S) {
-	if(!emptyStack(S)) {
-		return S.elements[S.topIndex];
-	}
-	return NULL;
-}
-
-void pop(Stack *pS) {
-	if(!emptyStack(*pS)){
-		pS->topIndex++;
-	} else {
-		printf("Error! Stack is empty");
-	}
-}
-
-void push(Node *node, Stack *pS) {
-	if(fullStack(*pS)){
-		printf("Error! Stack is full");
-	} else {
-		pS->topIndex--;
-		pS->elements[pS->topIndex] = node;	
-	}
-}
-
-int findState(State state, Stack openStack) {
-	while(!emptyStack(openStack)){
-		if(compareState(top(openStack)->state, state)) {
+int findState(State state, std::queue<Node*> openQueue) {
+	while(!openQueue.empty()){
+		if(compareState(openQueue.front()->state, state)) {
 			return 1;
 		}
-		pop(&openStack);
+		openQueue.pop();
 	}
 	return 0;
 }
 
-Node* DFS(State state) {
-	Stack openDFS;
-	Stack closeDFS;
-	
-	makeNullStack(&openDFS);
-	makeNullStack(&closeDFS);
+Node* BFS(State state) {
+	std::queue<Node*> openBFS;
+	std::queue<Node*> closeBFS;		
 	
 	Node* root = (Node*)malloc(sizeof(Node));
 	root->state = state;
 	root->parent = NULL;
 	root->noFunction = 0;
 	
-	push(root, &openDFS);
+	openBFS.push(root);
 	
-	while(!emptyStack(openDFS)) {
-		Node* node = top(openDFS);
-		pop(&openDFS);
-		push(node, &closeDFS);
+	while(!openBFS.empty()) {
+		Node* node = openBFS.front();
+		openBFS.pop();
+		closeBFS.push(node);
 		
 		if(goalCheck(node->state)) {
 			return node;
@@ -356,12 +312,12 @@ Node* DFS(State state) {
 			int option = 1;
 			option <= 5;
 			++option
-		) {
+			) {
 			State newState;
 			makeNullState(&newState);
 			
 			if(callOperator(node->state, &newState, option)) {
-				if(findState(newState, closeDFS) || findState(newState, openDFS)) {
+				if(findState(newState, closeBFS) || findState(newState, openBFS)) {
 					continue;
 				}
 				
@@ -369,29 +325,25 @@ Node* DFS(State state) {
 				newNode->state = newState;
 				newNode->parent = node;
 				newNode->noFunction = option;
-				push(newNode, &openDFS);
+				openBFS.push(newNode);
 			}
 		}
 	}
-	
 	return NULL;
 }
 
 void printPathwayToGetGoal(Node *node) {
-	Stack stackPrint;
-	makeNullStack(&stackPrint);
+	std::stack<Node*> stackPrint;
 	
-	while(node->parent != NULL) {
-		push(node, &stackPrint);
+	while(node != NULL) {
+		stackPrint.push(node);
 		node = node->parent;
 	}
 	
-	push(node, &stackPrint);
-	
 	int noAction = 0;
 	
-	while(!emptyStack(stackPrint)){
-		Node* currentNode = top(stackPrint);
+	while(!stackPrint.empty()){
+		Node* currentNode = stackPrint.top();
 		printf("Action %d: %s", noAction, actions[currentNode->noFunction]);
 		
 		if(noAction == 0){
@@ -405,14 +357,14 @@ void printPathwayToGetGoal(Node *node) {
 		}
 		printState(currentNode->state);
 		printf("\n");
-		pop(&stackPrint);
+		stackPrint.pop();
 		noAction++;
 	}
 }
 
 int main(){
 	State currentState = {MAX_PRIEST, MAX_DEMON, A};
-	Node *result = DFS(currentState);
+	Node *result = BFS(currentState);
 	printPathwayToGetGoal(result);
 	
 	return 0;
