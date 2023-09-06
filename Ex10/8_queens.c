@@ -47,7 +47,6 @@ int check_conflict(Board board, int row, int col){
 			return 1;
 		}
 	}
-	
 	return 0;
 }
 
