@@ -104,7 +104,7 @@ void deleteList(List *list, int position){
 void sortList(List *list){
 	for(int i = 0; i < list->size - 1; i++){
 		for(int j = i + 1; j < list->size; ++j){
-			if(list->elements[i]->h > list->elements[j]->h){
+			if(list->elements[i]->f > list->elements[j]->f){
 				Node* temp = list->elements[i];
 				list->elements[i] = list->elements[j];
 				list->elements[j] = temp;
@@ -152,7 +152,7 @@ Node* A_Star(Graph graph, State state, State goal){
 		if(goalCheck(node->state, goal)){
 			return node;
 		}
-		
+		printf("Vertex: %d\n", node->state.vertex);
 		for(int vertex = 0; vertex < graph.num_vertices; ++vertex){
 			if(graph.v[node->state.vertex].neightbors[vertex] > 0){
 				Node* newNode = (Node*)malloc(sizeof(Node));
