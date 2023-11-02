@@ -1,0 +1,769 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/yannis/ontologies/2023/8/banhmi.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/yannis/ontologies/2023/8/banhmi.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/yannis/ontologies/2023/8/banhmi"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Baguette"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Banh_Bot_Loc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Bauru"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Ca_Ngu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Cha_Ca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Dan_To"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Doner_Kebab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Francesinha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Gilgeori"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Gyros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Ham_n_Cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Hamburger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Hawawshi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Heo_Quay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Hot_Dog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Kaya"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Lobster_Roll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Masala_Dau_Ga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Mitrailette"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Nem_Khoai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Panini"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Pate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Pho_Mai_Nuong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Que"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Roti_Bakar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Sando"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Sausage_Sizzle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Taco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Tortas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Xíu_Mại"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Zapiekanka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bap_Cai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bo_Lat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bo_Sua"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ca_Chua"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ca_Ngu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ca_Rot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Can_Tay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cay_Mam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cha_Bong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chuoi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cu_Cai_Trang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cu_Re"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cuu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dau_Ga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dau_Tay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dua"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dua_Leo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Giam_Bong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hanh_La"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hanh_Tay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Khoai_Tay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kiwi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#La"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lap_Xuong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loai_Banh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Masala"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mayonaise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mu_Tat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mui_Tay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muoi_Tieu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mut_Dua"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nem_Chua"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ngo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nuoc_Mam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Olive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ot_Chuong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pa_Te"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pho_Mai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pita"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Qua"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rau_Cu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rau_Ram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salsa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sua"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sua_Chua"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thit_Da_Xu_Li"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thit_Hun_Khoi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thit_Nguoi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thit_Song"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toppings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tortilla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trai_Cay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trung"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tuong_Ca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tuong_Ot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xa_Lach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xuat_Xu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xuc_Xich"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Baguette"/>
+        <Class IRI="#Loai_Banh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Banh_Bot_Loc"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Bauru"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Ca_Ngu"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Cha_Ca"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Dan_To"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Doner_Kebab"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Francesinha"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Gilgeori"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Gyros"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Ham_n_Cheese"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Hamburger"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Hawawshi"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Heo_Quay"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Hot_Dog"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Kaya"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Lobster_Roll"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Masala_Dau_Ga"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Mitrailette"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Nem_Khoai"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Panini"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Pate"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Pho_Mai_Nuong"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Que"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Roti_Bakar"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Sando"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Sausage_Sizzle"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Taco"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Tortas"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Xíu_Mại"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Zapiekanka"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bap_Cai"/>
+        <Class IRI="#La"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bia"/>
+        <Class IRI="#Sot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bo"/>
+        <Class IRI="#Qua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bo"/>
+        <Class IRI="#Thit_Song"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bo_Lat"/>
+        <Class IRI="#Bo_Sua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bo_Sua"/>
+        <Class IRI="#Toppings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bun"/>
+        <Class IRI="#Loai_Banh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ca_Chua"/>
+        <Class IRI="#Qua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ca_Ngu"/>
+        <Class IRI="#Thit_Song"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ca_Rot"/>
+        <Class IRI="#Cu_Re"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cam"/>
+        <Class IRI="#Trai_Cay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Can_Tay"/>
+        <Class IRI="#Cay_Mam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cay_Mam"/>
+        <Class IRI="#Rau_Cu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cha"/>
+        <Class IRI="#Thit_Da_Xu_Li"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cha_Bong"/>
+        <Class IRI="#Thit_Da_Xu_Li"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate"/>
+        <Class IRI="#Bo_Sua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chuoi"/>
+        <Class IRI="#Trai_Cay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cu_Cai_Trang"/>
+        <Class IRI="#Cu_Re"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cu_Re"/>
+        <Class IRI="#Rau_Cu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cuu"/>
+        <Class IRI="#Thit_Song"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dao"/>
+        <Class IRI="#Trai_Cay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dau"/>
+        <Class IRI="#Qua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dau_Ga"/>
+        <Class IRI="#Dau"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dau_Tay"/>
+        <Class IRI="#Trai_Cay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dua"/>
+        <Class IRI="#Trai_Cay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dua_Leo"/>
+        <Class IRI="#Qua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ga"/>
+        <Class IRI="#Thit_Song"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Giam_Bong"/>
+        <Class IRI="#Thit_Da_Xu_Li"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hanh_La"/>
+        <Class IRI="#Cay_Mam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hanh_Tay"/>
+        <Class IRI="#Cu_Re"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heo"/>
+        <Class IRI="#Thit_Song"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Khoai_Tay"/>
+        <Class IRI="#Cu_Re"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kiwi"/>
+        <Class IRI="#Trai_Cay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#La"/>
+        <Class IRI="#Rau_Cu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lap_Xuong"/>
+        <Class IRI="#Thit_Da_Xu_Li"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loai_Banh"/>
+        <Class IRI="#Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Masala"/>
+        <Class IRI="#Sot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mayonaise"/>
+        <Class IRI="#Sot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mu_Tat"/>
+        <Class IRI="#Sot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mui_Tay"/>
+        <Class IRI="#Cay_Mam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muoi_Tieu"/>
+        <Class IRI="#Sot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mut_Dua"/>
+        <Class IRI="#Bo_Sua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nam"/>
+        <Class IRI="#Rau_Cu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nem_Chua"/>
+        <Class IRI="#Thit_Da_Xu_Li"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ngo"/>
+        <Class IRI="#Cay_Mam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nuoc_Mam"/>
+        <Class IRI="#Sot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Olive"/>
+        <Class IRI="#Qua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ot"/>
+        <Class IRI="#Qua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ot_Chuong"/>
+        <Class IRI="#Ot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pa_Te"/>
+        <Class IRI="#Thit_Da_Xu_Li"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pho_Mai"/>
+        <Class IRI="#Bo_Sua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pita"/>
+        <Class IRI="#Loai_Banh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Qua"/>
+        <Class IRI="#Rau_Cu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rau_Cu"/>
+        <Class IRI="#Toppings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rau_Ram"/>
+        <Class IRI="#La"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salsa"/>
+        <Class IRI="#Sot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sandwich"/>
+        <Class IRI="#Loai_Banh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sot"/>
+        <Class IRI="#Toppings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sua"/>
+        <Class IRI="#Bo_Sua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sua_Chua"/>
+        <Class IRI="#Sot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ten_Banh_Mi"/>
+        <Class IRI="#Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thit"/>
+        <Class IRI="#Toppings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thit_Da_Xu_Li"/>
+        <Class IRI="#Thit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thit_Hun_Khoi"/>
+        <Class IRI="#Thit_Da_Xu_Li"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thit_Nguoi"/>
+        <Class IRI="#Thit_Da_Xu_Li"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thit_Song"/>
+        <Class IRI="#Thit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tom"/>
+        <Class IRI="#Thit_Song"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toppings"/>
+        <Class IRI="#Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tortilla"/>
+        <Class IRI="#Loai_Banh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trai_Cay"/>
+        <Class IRI="#Toppings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trung"/>
+        <Class IRI="#Bo_Sua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tuong_Ca"/>
+        <Class IRI="#Sot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tuong_Ot"/>
+        <Class IRI="#Sot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xa_Lach"/>
+        <Class IRI="#La"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xuat_Xu"/>
+        <Class IRI="#Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xuc_Xich"/>
+        <Class IRI="#Thit_Da_Xu_Li"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

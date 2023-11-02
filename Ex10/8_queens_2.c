@@ -14,14 +14,17 @@ typedef struct Board{
 }Board;
 
 void spread_constraints(Board *board, Coordinate coord){
+	//Row right side
 	for (int col = coord.col; col < MAX_QUEENS; col++) {
 		board->constraints[coord.row][col] = 1;
 	}
 	
+	//Upper right
 	for (int row = coord.row, col = coord.col; row < MAX_QUEENS && col < MAX_QUEENS; row++, col++) {
 		board->constraints[row][col] = 1;
 	}
 	
+	//Lower right
 	for (int row = coord.row, col = coord.col; row >= 0 && col < MAX_QUEENS; row--, col++) {
 		board->constraints[row][col] = 1;
 	}

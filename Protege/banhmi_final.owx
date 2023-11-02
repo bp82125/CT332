@@ -1,0 +1,3047 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/yannis/ontologies/2023/8/banhmi"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/yannis/ontologies/2023/8/banhmi">
+    <Prefix name="" IRI="http://www.semanticweb.org/yannis/ontologies/2023/8/banhmi"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#An_Kem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Banh_Bot_Loc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Bauru"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Ca_Ngu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Cha_Ca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Dan_To"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Doner_Kebab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Francesinha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Gilgeori"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Gyros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Ham_n_Cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Hamburger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Hawawshi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Heo_Quay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Hot_Dog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Kaya"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Lobster_Roll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Masala_Dau_Ga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Mitraillette"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Nem_Khoai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Panini"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Pate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Pho_Mai_Nuong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Que"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Roti_Bakar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Sando"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Sausage_Sizzle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Taco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Tortas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Xiu_Mai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banh_Mi_Zapiekanka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bo_Sua"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cay_Mam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cu_Re"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#La"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loai_Banh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Qua"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rau_Cu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thit_Che_Bien"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thit_Song"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toppings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trai_Cay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xuat_Xu"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#co_loai_la"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#co_sot_la"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#la_an_kem_cua"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#la_loai_cua"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#la_nguon_goc_cua"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#la_sot_cua"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#la_thanh_phan_cua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ai_Cap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#An_Do"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ba_Lan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Baguette"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Banh_Bot_Loc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Bauru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Ca_Ngu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Cha_Ca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Dan_To"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Doner_Kebab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Francesinha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Gilgeori"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Gyros"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Ham_n_Cheese"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Hamburger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Hawawshi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Heo_Quay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Hot_Dog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Kaya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Lobster_Roll"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Masala_Dau_Ga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Mitraillette"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Nem_Khoai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Panini"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Pate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Pho_Mai_Nuong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Que"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Roti_Baker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Sando"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Sausage_Sizzle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Taco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Tortas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Xiu_Mai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banh_Mi_Zapiekanka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bap_Cai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bo_Dao_Nha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bo_Dau_Phong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bo_Lat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brazil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ca_Ngu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ca_Rot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Can_Tay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cha_Bong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chanh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chocolate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chuoi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chutney"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cu_Cai_Trang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dau_Den"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dau_Ga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dau_Tay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dua_Chua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dua_Leo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Duc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Giam_Bong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Han_Quoc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hanh_La"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hat_Dau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hi_Lap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Indonesia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khoai_Tay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khoai_Tay_Chien"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khoai_Tay_Nghien"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kimchi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kiwi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lap_Xuong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Masala"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mayonaise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mexico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mu_Tat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mui_Tay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Muoi_Tieu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mut_Dau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mut_Dua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#My"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nem_Chua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ngo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nhat_Ban"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nuoc_Mam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Olive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ot_Chuong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pa_Te"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pho_Mai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rau_Ram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salsa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Singapore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sot_Pho_Mai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sua_Chua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sup_Ca_Chua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thit_Bo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thit_Cuu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thit_Ga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thit_Heo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thit_Hun_Khoi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thit_Nguoi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tho_Nhi_Ky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tortilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trung_Chien"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tuong_Ca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tuong_Ot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Viet_Nam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xa_Lach"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xuc_Xich"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Y"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Banh_Bot_Loc"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Bauru"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Ca_Ngu"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Cha_Ca"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Dan_To"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Doner_Kebab"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Francesinha"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Gilgeori"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Gyros"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Ham_n_Cheese"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Hamburger"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Hawawshi"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Heo_Quay"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Hot_Dog"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Kaya"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Lobster_Roll"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Masala_Dau_Ga"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Mitraillette"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Nem_Khoai"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Panini"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Pate"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Pho_Mai_Nuong"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Que"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Roti_Bakar"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Sando"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Sausage_Sizzle"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Taco"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Tortas"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Xiu_Mai"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banh_Mi_Zapiekanka"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bo_Sua"/>
+        <Class IRI="#Toppings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cay_Mam"/>
+        <Class IRI="#Rau_Cu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cu_Re"/>
+        <Class IRI="#Rau_Cu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#La"/>
+        <Class IRI="#Rau_Cu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loai_Banh"/>
+        <Class IRI="#Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mut"/>
+        <Class IRI="#Toppings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nam"/>
+        <Class IRI="#Rau_Cu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Qua"/>
+        <Class IRI="#Rau_Cu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rau_Cu"/>
+        <Class IRI="#Toppings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sot"/>
+        <Class IRI="#Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ten_Banh_Mi"/>
+        <Class IRI="#Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thit"/>
+        <Class IRI="#Toppings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thit_Che_Bien"/>
+        <Class IRI="#Thit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thit_Song"/>
+        <Class IRI="#Thit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toppings"/>
+        <Class IRI="#Banh_Mi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trai_Cay"/>
+        <Class IRI="#Toppings"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#An_Kem"/>
+        <Class IRI="#Loai_Banh"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#An_Kem"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#An_Kem"/>
+        <Class IRI="#Xuat_Xu"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Banh_Mi"/>
+        <Class IRI="#Sot"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Loai_Banh"/>
+        <Class IRI="#Sot"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Loai_Banh"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+        <Class IRI="#Toppings"/>
+        <Class IRI="#Xuat_Xu"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Sot"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Sot"/>
+        <Class IRI="#Toppings"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Sot"/>
+        <Class IRI="#Xuat_Xu"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Ai_Cap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#An_Do"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Anh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Ba_Lan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loai_Banh"/>
+        <NamedIndividual IRI="#Baguette"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Banh_Bot_Loc"/>
+        <NamedIndividual IRI="#Banh_Mi_Banh_Bot_Loc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Bauru"/>
+        <NamedIndividual IRI="#Banh_Mi_Bauru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Ca_Ngu"/>
+        <NamedIndividual IRI="#Banh_Mi_Ca_Ngu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Cha_Ca"/>
+        <NamedIndividual IRI="#Banh_Mi_Cha_Ca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Dan_To"/>
+        <NamedIndividual IRI="#Banh_Mi_Dan_To"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Doner_Kebab"/>
+        <NamedIndividual IRI="#Banh_Mi_Doner_Kebab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Francesinha"/>
+        <NamedIndividual IRI="#Banh_Mi_Francesinha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Gilgeori"/>
+        <NamedIndividual IRI="#Banh_Mi_Gilgeori"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Gyros"/>
+        <NamedIndividual IRI="#Banh_Mi_Gyros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Ham_n_Cheese"/>
+        <NamedIndividual IRI="#Banh_Mi_Ham_n_Cheese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Hamburger"/>
+        <NamedIndividual IRI="#Banh_Mi_Hamburger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Hawawshi"/>
+        <NamedIndividual IRI="#Banh_Mi_Hawawshi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Heo_Quay"/>
+        <NamedIndividual IRI="#Banh_Mi_Heo_Quay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Hot_Dog"/>
+        <NamedIndividual IRI="#Banh_Mi_Hot_Dog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Kaya"/>
+        <NamedIndividual IRI="#Banh_Mi_Kaya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Lobster_Roll"/>
+        <NamedIndividual IRI="#Banh_Mi_Lobster_Roll"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Masala_Dau_Ga"/>
+        <NamedIndividual IRI="#Banh_Mi_Masala_Dau_Ga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Mitraillette"/>
+        <NamedIndividual IRI="#Banh_Mi_Mitraillette"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Nem_Khoai"/>
+        <NamedIndividual IRI="#Banh_Mi_Nem_Khoai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Panini"/>
+        <NamedIndividual IRI="#Banh_Mi_Panini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Pate"/>
+        <NamedIndividual IRI="#Banh_Mi_Pate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Pho_Mai_Nuong"/>
+        <NamedIndividual IRI="#Banh_Mi_Pho_Mai_Nuong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Que"/>
+        <NamedIndividual IRI="#Banh_Mi_Que"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Roti_Bakar"/>
+        <NamedIndividual IRI="#Banh_Mi_Roti_Baker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Sando"/>
+        <NamedIndividual IRI="#Banh_Mi_Sando"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Sausage_Sizzle"/>
+        <NamedIndividual IRI="#Banh_Mi_Sausage_Sizzle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Taco"/>
+        <NamedIndividual IRI="#Banh_Mi_Taco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Tortas"/>
+        <NamedIndividual IRI="#Banh_Mi_Tortas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Xiu_Mai"/>
+        <NamedIndividual IRI="#Banh_Mi_Xiu_Mai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Banh_Mi_Zapiekanka"/>
+        <NamedIndividual IRI="#Banh_Mi_Zapiekanka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#La"/>
+        <NamedIndividual IRI="#Bap_Cai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Bap_Cai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Bap_Cai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Bi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sot"/>
+        <NamedIndividual IRI="#Bia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Qua"/>
+        <NamedIndividual IRI="#Bo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Bo_Dao_Nha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bo_Sua"/>
+        <NamedIndividual IRI="#Bo_Dau_Phong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bo_Sua"/>
+        <NamedIndividual IRI="#Bo_Lat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Bo_Lat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Brazil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loai_Banh"/>
+        <NamedIndividual IRI="#Bun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Qua"/>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit"/>
+        <NamedIndividual IRI="#Ca_Ngu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit_Song"/>
+        <NamedIndividual IRI="#Ca_Ngu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Ca_Ngu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cu_Re"/>
+        <NamedIndividual IRI="#Ca_Rot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Ca_Rot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Ca_Rot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Cam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Trai_Cay"/>
+        <NamedIndividual IRI="#Cam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cay_Mam"/>
+        <NamedIndividual IRI="#Can_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Can_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Can_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit"/>
+        <NamedIndividual IRI="#Cha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit_Che_Bien"/>
+        <NamedIndividual IRI="#Cha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Cha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit"/>
+        <NamedIndividual IRI="#Cha_Bong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit_Che_Bien"/>
+        <NamedIndividual IRI="#Cha_Bong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Cha_Bong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Chanh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bo_Sua"/>
+        <NamedIndividual IRI="#Chocolate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Chocolate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Chuoi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Trai_Cay"/>
+        <NamedIndividual IRI="#Chuoi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#An_Kem"/>
+        <NamedIndividual IRI="#Chutney"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cu_Re"/>
+        <NamedIndividual IRI="#Cu_Cai_Trang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Cu_Cai_Trang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Cu_Cai_Trang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Dao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Trai_Cay"/>
+        <NamedIndividual IRI="#Dao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Dau_Den"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Qua"/>
+        <NamedIndividual IRI="#Dau_Ga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Dau_Ga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Dau_Ga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Dau_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Trai_Cay"/>
+        <NamedIndividual IRI="#Dau_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Dua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Trai_Cay"/>
+        <NamedIndividual IRI="#Dua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#An_Kem"/>
+        <NamedIndividual IRI="#Dua_Chua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Qua"/>
+        <NamedIndividual IRI="#Dua_Leo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Dua_Leo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Dua_Leo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Duc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit"/>
+        <NamedIndividual IRI="#Giam_Bong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit_Che_Bien"/>
+        <NamedIndividual IRI="#Giam_Bong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Giam_Bong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Han_Quoc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cay_Mam"/>
+        <NamedIndividual IRI="#Hanh_La"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Hanh_La"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Hanh_La"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cu_Re"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Qua"/>
+        <NamedIndividual IRI="#Hat_Dau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Hat_Dau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Hat_Dau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Hi_Lap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Indonesia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sot"/>
+        <NamedIndividual IRI="#Kem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cu_Re"/>
+        <NamedIndividual IRI="#Khoai_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Khoai_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Khoai_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#An_Kem"/>
+        <NamedIndividual IRI="#Khoai_Tay_Chien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#An_Kem"/>
+        <NamedIndividual IRI="#Khoai_Tay_Nghien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#An_Kem"/>
+        <NamedIndividual IRI="#Kimchi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Kiwi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Trai_Cay"/>
+        <NamedIndividual IRI="#Kiwi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit"/>
+        <NamedIndividual IRI="#Lap_Xuong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit_Che_Bien"/>
+        <NamedIndividual IRI="#Lap_Xuong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Lap_Xuong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sot"/>
+        <NamedIndividual IRI="#Masala"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sot"/>
+        <NamedIndividual IRI="#Mayonaise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Mexico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sot"/>
+        <NamedIndividual IRI="#Mu_Tat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cay_Mam"/>
+        <NamedIndividual IRI="#Mui_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Mui_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Mui_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sot"/>
+        <NamedIndividual IRI="#Muoi_Tieu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mut"/>
+        <NamedIndividual IRI="#Mut_Dau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mut"/>
+        <NamedIndividual IRI="#Mut_Dua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Mut_Dua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#My"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nam"/>
+        <NamedIndividual IRI="#Nam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Nam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Nam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit"/>
+        <NamedIndividual IRI="#Nem_Chua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit_Che_Bien"/>
+        <NamedIndividual IRI="#Nem_Chua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Nem_Chua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cay_Mam"/>
+        <NamedIndividual IRI="#Ngo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Ngo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Ngo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Nhat_Ban"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sot"/>
+        <NamedIndividual IRI="#Nuoc_Mam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Qua"/>
+        <NamedIndividual IRI="#Olive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Olive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Olive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Qua"/>
+        <NamedIndividual IRI="#Ot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Ot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Ot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Qua"/>
+        <NamedIndividual IRI="#Ot_Chuong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Ot_Chuong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Ot_Chuong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit"/>
+        <NamedIndividual IRI="#Pa_Te"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit_Che_Bien"/>
+        <NamedIndividual IRI="#Pa_Te"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Pa_Te"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bo_Sua"/>
+        <NamedIndividual IRI="#Pho_Mai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Pho_Mai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loai_Banh"/>
+        <NamedIndividual IRI="#Pita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#La"/>
+        <NamedIndividual IRI="#Rau_Ram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Rau_Ram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Rau_Ram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#An_Kem"/>
+        <NamedIndividual IRI="#Salad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sot"/>
+        <NamedIndividual IRI="#Salsa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loai_Banh"/>
+        <NamedIndividual IRI="#Sandwich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Singapore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sot"/>
+        <NamedIndividual IRI="#Sot_Pho_Mai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bo_Sua"/>
+        <NamedIndividual IRI="#Sua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Sua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sot"/>
+        <NamedIndividual IRI="#Sua_Chua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#An_Kem"/>
+        <NamedIndividual IRI="#Sup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#An_Kem"/>
+        <NamedIndividual IRI="#Sup_Ca_Chua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit"/>
+        <NamedIndividual IRI="#Thit_Bo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit_Song"/>
+        <NamedIndividual IRI="#Thit_Bo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Thit_Bo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit"/>
+        <NamedIndividual IRI="#Thit_Cuu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit_Song"/>
+        <NamedIndividual IRI="#Thit_Cuu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Thit_Cuu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit"/>
+        <NamedIndividual IRI="#Thit_Ga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit_Song"/>
+        <NamedIndividual IRI="#Thit_Ga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Thit_Ga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit"/>
+        <NamedIndividual IRI="#Thit_Heo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit_Song"/>
+        <NamedIndividual IRI="#Thit_Heo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Thit_Heo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit"/>
+        <NamedIndividual IRI="#Thit_Hun_Khoi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit_Che_Bien"/>
+        <NamedIndividual IRI="#Thit_Hun_Khoi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Thit_Hun_Khoi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit"/>
+        <NamedIndividual IRI="#Thit_Nguoi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit_Che_Bien"/>
+        <NamedIndividual IRI="#Thit_Nguoi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Thit_Nguoi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Tho_Nhi_Ky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit_Song"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loai_Banh"/>
+        <NamedIndividual IRI="#Tortilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bo_Sua"/>
+        <NamedIndividual IRI="#Trung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#An_Kem"/>
+        <NamedIndividual IRI="#Trung_Chien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sot"/>
+        <NamedIndividual IRI="#Tuong_Ca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sot"/>
+        <NamedIndividual IRI="#Tuong_Ot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Uc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Viet_Nam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#La"/>
+        <NamedIndividual IRI="#Xa_Lach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rau_Cu"/>
+        <NamedIndividual IRI="#Xa_Lach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Xa_Lach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit"/>
+        <NamedIndividual IRI="#Xuc_Xich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thit_Che_Bien"/>
+        <NamedIndividual IRI="#Xuc_Xich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Xuc_Xich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xuat_Xu"/>
+        <NamedIndividual IRI="#Y"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Banh_Bot_Loc"/>
+        <NamedIndividual IRI="#Baguette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Banh_Bot_Loc"/>
+        <NamedIndividual IRI="#Viet_Nam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Banh_Bot_Loc"/>
+        <NamedIndividual IRI="#Nuoc_Mam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Banh_Bot_Loc"/>
+        <NamedIndividual IRI="#Nam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Banh_Bot_Loc"/>
+        <NamedIndividual IRI="#Thit_Heo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Banh_Bot_Loc"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Bauru"/>
+        <NamedIndividual IRI="#Bun"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Bauru"/>
+        <NamedIndividual IRI="#Brazil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Bauru"/>
+        <NamedIndividual IRI="#Salsa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Bauru"/>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Bauru"/>
+        <NamedIndividual IRI="#Dua_Leo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Bauru"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Bauru"/>
+        <NamedIndividual IRI="#Pho_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Bauru"/>
+        <NamedIndividual IRI="#Thit_Bo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Bauru"/>
+        <NamedIndividual IRI="#Xa_Lach"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Ca_Ngu"/>
+        <NamedIndividual IRI="#Dua_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Ca_Ngu"/>
+        <NamedIndividual IRI="#Sandwich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Ca_Ngu"/>
+        <NamedIndividual IRI="#My"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Ca_Ngu"/>
+        <NamedIndividual IRI="#Mayonaise"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Ca_Ngu"/>
+        <NamedIndividual IRI="#Ca_Ngu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Ca_Ngu"/>
+        <NamedIndividual IRI="#Can_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Ca_Ngu"/>
+        <NamedIndividual IRI="#Dua_Leo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Ca_Ngu"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Ca_Ngu"/>
+        <NamedIndividual IRI="#Olive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Cha_Ca"/>
+        <NamedIndividual IRI="#Baguette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Cha_Ca"/>
+        <NamedIndividual IRI="#Viet_Nam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Cha_Ca"/>
+        <NamedIndividual IRI="#Tuong_Ot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Cha_Ca"/>
+        <NamedIndividual IRI="#Cha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Cha_Ca"/>
+        <NamedIndividual IRI="#Rau_Ram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Dan_To"/>
+        <NamedIndividual IRI="#Baguette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Dan_To"/>
+        <NamedIndividual IRI="#Viet_Nam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Dan_To"/>
+        <NamedIndividual IRI="#Mayonaise"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Dan_To"/>
+        <NamedIndividual IRI="#Tuong_Ot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Dan_To"/>
+        <NamedIndividual IRI="#Cha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Dan_To"/>
+        <NamedIndividual IRI="#Cha_Bong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Dan_To"/>
+        <NamedIndividual IRI="#Lap_Xuong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Dan_To"/>
+        <NamedIndividual IRI="#Pa_Te"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Dan_To"/>
+        <NamedIndividual IRI="#Thit_Heo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Dan_To"/>
+        <NamedIndividual IRI="#Xuc_Xich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Doner_Kebab"/>
+        <NamedIndividual IRI="#Salad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Doner_Kebab"/>
+        <NamedIndividual IRI="#Pita"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Doner_Kebab"/>
+        <NamedIndividual IRI="#Tho_Nhi_Ky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Doner_Kebab"/>
+        <NamedIndividual IRI="#Sua_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Doner_Kebab"/>
+        <NamedIndividual IRI="#Bap_Cai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Doner_Kebab"/>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Doner_Kebab"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Doner_Kebab"/>
+        <NamedIndividual IRI="#Ot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Doner_Kebab"/>
+        <NamedIndividual IRI="#Ot_Chuong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Doner_Kebab"/>
+        <NamedIndividual IRI="#Thit_Bo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Doner_Kebab"/>
+        <NamedIndividual IRI="#Thit_Cuu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Doner_Kebab"/>
+        <NamedIndividual IRI="#Thit_Ga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Francesinha"/>
+        <NamedIndividual IRI="#Khoai_Tay_Chien"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Francesinha"/>
+        <NamedIndividual IRI="#Sandwich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Francesinha"/>
+        <NamedIndividual IRI="#Bo_Dao_Nha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Francesinha"/>
+        <NamedIndividual IRI="#Bia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Francesinha"/>
+        <NamedIndividual IRI="#Tuong_Ca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Francesinha"/>
+        <NamedIndividual IRI="#Giam_Bong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Francesinha"/>
+        <NamedIndividual IRI="#Nam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Francesinha"/>
+        <NamedIndividual IRI="#Pho_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Francesinha"/>
+        <NamedIndividual IRI="#Thit_Bo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Francesinha"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Francesinha"/>
+        <NamedIndividual IRI="#Xuc_Xich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gilgeori"/>
+        <NamedIndividual IRI="#Kimchi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gilgeori"/>
+        <NamedIndividual IRI="#Han_Quoc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gilgeori"/>
+        <NamedIndividual IRI="#Mu_Tat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gilgeori"/>
+        <NamedIndividual IRI="#Tuong_Ca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gilgeori"/>
+        <NamedIndividual IRI="#Bap_Cai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gilgeori"/>
+        <NamedIndividual IRI="#Ca_Rot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gilgeori"/>
+        <NamedIndividual IRI="#Hanh_La"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gilgeori"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gilgeori"/>
+        <NamedIndividual IRI="#Trung"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gyros"/>
+        <NamedIndividual IRI="#Khoai_Tay_Nghien"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gyros"/>
+        <NamedIndividual IRI="#Pita"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gyros"/>
+        <NamedIndividual IRI="#Hi_Lap"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gyros"/>
+        <NamedIndividual IRI="#Sua_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gyros"/>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gyros"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gyros"/>
+        <NamedIndividual IRI="#Khoai_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Gyros"/>
+        <NamedIndividual IRI="#Thit_Heo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Ham_n_Cheese"/>
+        <NamedIndividual IRI="#Khoai_Tay_Nghien"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Ham_n_Cheese"/>
+        <NamedIndividual IRI="#Sandwich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Ham_n_Cheese"/>
+        <NamedIndividual IRI="#Anh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Ham_n_Cheese"/>
+        <NamedIndividual IRI="#Sot_Pho_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Ham_n_Cheese"/>
+        <NamedIndividual IRI="#Giam_Bong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Ham_n_Cheese"/>
+        <NamedIndividual IRI="#Pho_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hamburger"/>
+        <NamedIndividual IRI="#Khoai_Tay_Chien"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hamburger"/>
+        <NamedIndividual IRI="#Bun"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hamburger"/>
+        <NamedIndividual IRI="#Duc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hamburger"/>
+        <NamedIndividual IRI="#Mu_Tat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hamburger"/>
+        <NamedIndividual IRI="#Tuong_Ca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hamburger"/>
+        <NamedIndividual IRI="#Tuong_Ot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hamburger"/>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hamburger"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hamburger"/>
+        <NamedIndividual IRI="#Pho_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hamburger"/>
+        <NamedIndividual IRI="#Thit_Bo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hamburger"/>
+        <NamedIndividual IRI="#Xa_Lach"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hawawshi"/>
+        <NamedIndividual IRI="#Dua_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hawawshi"/>
+        <NamedIndividual IRI="#Pita"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hawawshi"/>
+        <NamedIndividual IRI="#Ai_Cap"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hawawshi"/>
+        <NamedIndividual IRI="#Sua_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hawawshi"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hawawshi"/>
+        <NamedIndividual IRI="#Mui_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hawawshi"/>
+        <NamedIndividual IRI="#Ot_Chuong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hawawshi"/>
+        <NamedIndividual IRI="#Thit_Bo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Heo_Quay"/>
+        <NamedIndividual IRI="#Baguette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Heo_Quay"/>
+        <NamedIndividual IRI="#Viet_Nam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Heo_Quay"/>
+        <NamedIndividual IRI="#Muoi_Tieu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Heo_Quay"/>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Heo_Quay"/>
+        <NamedIndividual IRI="#Ca_Rot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Heo_Quay"/>
+        <NamedIndividual IRI="#Cu_Cai_Trang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Heo_Quay"/>
+        <NamedIndividual IRI="#Dua_Leo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Heo_Quay"/>
+        <NamedIndividual IRI="#Ngo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Heo_Quay"/>
+        <NamedIndividual IRI="#Nuoc_Mam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Heo_Quay"/>
+        <NamedIndividual IRI="#Thit_Heo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hot_Dog"/>
+        <NamedIndividual IRI="#Khoai_Tay_Chien"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hot_Dog"/>
+        <NamedIndividual IRI="#Bun"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hot_Dog"/>
+        <NamedIndividual IRI="#My"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hot_Dog"/>
+        <NamedIndividual IRI="#Mayonaise"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hot_Dog"/>
+        <NamedIndividual IRI="#Tuong_Ca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hot_Dog"/>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hot_Dog"/>
+        <NamedIndividual IRI="#Xa_Lach"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Hot_Dog"/>
+        <NamedIndividual IRI="#Xuc_Xich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Kaya"/>
+        <NamedIndividual IRI="#Trung_Chien"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Kaya"/>
+        <NamedIndividual IRI="#Sandwich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Kaya"/>
+        <NamedIndividual IRI="#Singapore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Kaya"/>
+        <NamedIndividual IRI="#Bo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Kaya"/>
+        <NamedIndividual IRI="#Dua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Kaya"/>
+        <NamedIndividual IRI="#Mut_Dua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Kaya"/>
+        <NamedIndividual IRI="#Trung"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Lobster_Roll"/>
+        <NamedIndividual IRI="#Khoai_Tay_Chien"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Lobster_Roll"/>
+        <NamedIndividual IRI="#Bun"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Lobster_Roll"/>
+        <NamedIndividual IRI="#My"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Lobster_Roll"/>
+        <NamedIndividual IRI="#Mayonaise"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Lobster_Roll"/>
+        <NamedIndividual IRI="#Dua_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Lobster_Roll"/>
+        <NamedIndividual IRI="#Mui_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Lobster_Roll"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Lobster_Roll"/>
+        <NamedIndividual IRI="#Xa_Lach"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Masala_Dau_Ga"/>
+        <NamedIndividual IRI="#Chutney"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Masala_Dau_Ga"/>
+        <NamedIndividual IRI="#Sandwich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Masala_Dau_Ga"/>
+        <NamedIndividual IRI="#An_Do"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Masala_Dau_Ga"/>
+        <NamedIndividual IRI="#Masala"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Masala_Dau_Ga"/>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Masala_Dau_Ga"/>
+        <NamedIndividual IRI="#Dau_Ga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Masala_Dau_Ga"/>
+        <NamedIndividual IRI="#Dua_Leo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Masala_Dau_Ga"/>
+        <NamedIndividual IRI="#Hanh_La"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Masala_Dau_Ga"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Masala_Dau_Ga"/>
+        <NamedIndividual IRI="#Pho_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Mitraillette"/>
+        <NamedIndividual IRI="#Khoai_Tay_Chien"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Mitraillette"/>
+        <NamedIndividual IRI="#Baguette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Mitraillette"/>
+        <NamedIndividual IRI="#Bi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Mitraillette"/>
+        <NamedIndividual IRI="#Mayonaise"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Mitraillette"/>
+        <NamedIndividual IRI="#Tuong_Ca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Mitraillette"/>
+        <NamedIndividual IRI="#Bap_Cai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Mitraillette"/>
+        <NamedIndividual IRI="#Khoai_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Mitraillette"/>
+        <NamedIndividual IRI="#Pho_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Mitraillette"/>
+        <NamedIndividual IRI="#Thit_Bo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Mitraillette"/>
+        <NamedIndividual IRI="#Xuc_Xich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Nem_Khoai"/>
+        <NamedIndividual IRI="#Baguette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Nem_Khoai"/>
+        <NamedIndividual IRI="#Viet_Nam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Nem_Khoai"/>
+        <NamedIndividual IRI="#Mayonaise"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Nem_Khoai"/>
+        <NamedIndividual IRI="#Tuong_Ot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Nem_Khoai"/>
+        <NamedIndividual IRI="#Khoai_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Nem_Khoai"/>
+        <NamedIndividual IRI="#Nem_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Nem_Khoai"/>
+        <NamedIndividual IRI="#Ngo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Panini"/>
+        <NamedIndividual IRI="#Salad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Panini"/>
+        <NamedIndividual IRI="#Sandwich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Panini"/>
+        <NamedIndividual IRI="#Y"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Panini"/>
+        <NamedIndividual IRI="#Tuong_Ot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Panini"/>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Panini"/>
+        <NamedIndividual IRI="#Giam_Bong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Panini"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Panini"/>
+        <NamedIndividual IRI="#Mayonaise"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Panini"/>
+        <NamedIndividual IRI="#Pho_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Panini"/>
+        <NamedIndividual IRI="#Sup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Panini"/>
+        <NamedIndividual IRI="#Xuc_Xich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pate"/>
+        <NamedIndividual IRI="#Baguette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pate"/>
+        <NamedIndividual IRI="#Viet_Nam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pate"/>
+        <NamedIndividual IRI="#Muoi_Tieu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pate"/>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pate"/>
+        <NamedIndividual IRI="#Ca_Rot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pate"/>
+        <NamedIndividual IRI="#Cha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pate"/>
+        <NamedIndividual IRI="#Cu_Cai_Trang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pate"/>
+        <NamedIndividual IRI="#Dua_Leo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pate"/>
+        <NamedIndividual IRI="#Pa_Te"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pho_Mai_Nuong"/>
+        <NamedIndividual IRI="#Sup_Ca_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pho_Mai_Nuong"/>
+        <NamedIndividual IRI="#Sandwich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pho_Mai_Nuong"/>
+        <NamedIndividual IRI="#My"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pho_Mai_Nuong"/>
+        <NamedIndividual IRI="#Bo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pho_Mai_Nuong"/>
+        <NamedIndividual IRI="#Bo_Dau_Phong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pho_Mai_Nuong"/>
+        <NamedIndividual IRI="#Mut_Dau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Pho_Mai_Nuong"/>
+        <NamedIndividual IRI="#Pho_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Que"/>
+        <NamedIndividual IRI="#Baguette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Que"/>
+        <NamedIndividual IRI="#Viet_Nam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Que"/>
+        <NamedIndividual IRI="#Mayonaise"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Que"/>
+        <NamedIndividual IRI="#Tuong_Ot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Que"/>
+        <NamedIndividual IRI="#Ca_Rot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Que"/>
+        <NamedIndividual IRI="#Cha_Bong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Que"/>
+        <NamedIndividual IRI="#Cu_Cai_Trang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Que"/>
+        <NamedIndividual IRI="#Pa_Te"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Que"/>
+        <NamedIndividual IRI="#Xuc_Xich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Roti_Baker"/>
+        <NamedIndividual IRI="#Sup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Roti_Baker"/>
+        <NamedIndividual IRI="#Trung_Chien"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Roti_Baker"/>
+        <NamedIndividual IRI="#Sandwich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Roti_Baker"/>
+        <NamedIndividual IRI="#Indonesia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Roti_Baker"/>
+        <NamedIndividual IRI="#Bo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Roti_Baker"/>
+        <NamedIndividual IRI="#Chocolate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Roti_Baker"/>
+        <NamedIndividual IRI="#Chuoi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Roti_Baker"/>
+        <NamedIndividual IRI="#Pho_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Roti_Baker"/>
+        <NamedIndividual IRI="#Sua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Sando"/>
+        <NamedIndividual IRI="#Sandwich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Sando"/>
+        <NamedIndividual IRI="#Nhat_Ban"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Sando"/>
+        <NamedIndividual IRI="#Kem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Sando"/>
+        <NamedIndividual IRI="#Cam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Sando"/>
+        <NamedIndividual IRI="#Dao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Sando"/>
+        <NamedIndividual IRI="#Dau_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Sando"/>
+        <NamedIndividual IRI="#Kiwi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Sausage_Sizzle"/>
+        <NamedIndividual IRI="#Salad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Sausage_Sizzle"/>
+        <NamedIndividual IRI="#Sandwich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Sausage_Sizzle"/>
+        <NamedIndividual IRI="#Uc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Sausage_Sizzle"/>
+        <NamedIndividual IRI="#Tuong_Ca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Sausage_Sizzle"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Sausage_Sizzle"/>
+        <NamedIndividual IRI="#Xuc_Xich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Taco"/>
+        <NamedIndividual IRI="#Salad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Taco"/>
+        <NamedIndividual IRI="#Tortilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Taco"/>
+        <NamedIndividual IRI="#Mexico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Taco"/>
+        <NamedIndividual IRI="#Salsa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Taco"/>
+        <NamedIndividual IRI="#Tuong_Ca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Taco"/>
+        <NamedIndividual IRI="#Bo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Taco"/>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Taco"/>
+        <NamedIndividual IRI="#Chanh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Taco"/>
+        <NamedIndividual IRI="#Dua_Leo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Taco"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Taco"/>
+        <NamedIndividual IRI="#Pho_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Taco"/>
+        <NamedIndividual IRI="#Thit_Heo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Taco"/>
+        <NamedIndividual IRI="#Thit_Hun_Khoi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Tortas"/>
+        <NamedIndividual IRI="#Salad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Tortas"/>
+        <NamedIndividual IRI="#Tortilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Tortas"/>
+        <NamedIndividual IRI="#Mexico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Tortas"/>
+        <NamedIndividual IRI="#Salsa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Tortas"/>
+        <NamedIndividual IRI="#Bo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Tortas"/>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Tortas"/>
+        <NamedIndividual IRI="#Dau_Den"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Tortas"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Tortas"/>
+        <NamedIndividual IRI="#Ot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Tortas"/>
+        <NamedIndividual IRI="#Pho_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Tortas"/>
+        <NamedIndividual IRI="#Thit_Bo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Xiu_Mai"/>
+        <NamedIndividual IRI="#Dua_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Xiu_Mai"/>
+        <NamedIndividual IRI="#Salad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Xiu_Mai"/>
+        <NamedIndividual IRI="#Baguette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Xiu_Mai"/>
+        <NamedIndividual IRI="#Viet_Nam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Xiu_Mai"/>
+        <NamedIndividual IRI="#Tuong_Ca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Xiu_Mai"/>
+        <NamedIndividual IRI="#Ca_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Xiu_Mai"/>
+        <NamedIndividual IRI="#Hanh_La"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Xiu_Mai"/>
+        <NamedIndividual IRI="#Thit_Heo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Xiu_Mai"/>
+        <NamedIndividual IRI="#Trung"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Zapiekanka"/>
+        <NamedIndividual IRI="#Dua_Chua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Zapiekanka"/>
+        <NamedIndividual IRI="#Sup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Zapiekanka"/>
+        <NamedIndividual IRI="#Baguette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Zapiekanka"/>
+        <NamedIndividual IRI="#Ba_Lan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Zapiekanka"/>
+        <NamedIndividual IRI="#Tuong_Ca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Zapiekanka"/>
+        <NamedIndividual IRI="#Hanh_Tay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Zapiekanka"/>
+        <NamedIndividual IRI="#Nam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Zapiekanka"/>
+        <NamedIndividual IRI="#Ot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Zapiekanka"/>
+        <NamedIndividual IRI="#Pho_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Zapiekanka"/>
+        <NamedIndividual IRI="#Thit_Nguoi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <NamedIndividual IRI="#Banh_Mi_Zapiekanka"/>
+        <NamedIndividual IRI="#Xuc_Xich"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <ObjectProperty IRI="#la_an_kem_cua"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <ObjectProperty IRI="#la_loai_cua"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <ObjectProperty IRI="#la_nguon_goc_cua"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <ObjectProperty IRI="#la_sot_cua"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <ObjectProperty IRI="#la_thanh_phan_cua"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#la_an_kem_cua"/>
+        <Class IRI="#An_Kem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#la_loai_cua"/>
+        <Class IRI="#Loai_Banh"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#la_nguon_goc_cua"/>
+        <Class IRI="#Xuat_Xu"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#la_sot_cua"/>
+        <Class IRI="#Sot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#la_thanh_phan_cua"/>
+        <Class IRI="#Toppings"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#co_an_kem_la"/>
+        <Class IRI="#An_Kem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#co_loai_la"/>
+        <Class IRI="#Loai_Banh"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#co_nguon_goc_la"/>
+        <Class IRI="#Xuat_Xu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#co_sot_la"/>
+        <Class IRI="#Sot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#co_thanh_phan_la"/>
+        <Class IRI="#Toppings"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#la_an_kem_cua"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#la_loai_cua"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#la_nguon_goc_cua"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#la_sot_cua"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#la_thanh_phan_cua"/>
+        <Class IRI="#Ten_Banh_Mi"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
